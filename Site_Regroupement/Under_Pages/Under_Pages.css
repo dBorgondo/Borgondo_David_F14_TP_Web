@@ -1,0 +1,13 @@
+
+.horizontal
+	{
+		background-image: url("../Images/background_nav.jpg");
+		text-align:center;
+		margin: 5px;
+	}
+.horizontal h2{
+	color:white;
+	margin:0;
+	text-align:center;
+}
+

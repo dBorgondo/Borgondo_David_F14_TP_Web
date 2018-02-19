@@ -1,0 +1,74 @@
+body
+	{
+		color: white;
+		background-color:black;
+		font-family: Verdana, Courier New, Sans-serif/* On en indique plusieurs car si une police n'est pas disponible il utilisera la suivante *//* https://www.w3schools.com/css/css_font.asp */
+		/*  font-family: "Open Sans";
+   src: url("/fonts/OpenSans-Regular-webfont.woff2") format("eot"),
+        url("/fonts/OpenSans-Regular-webfont.woff") format("woff"),
+        url("/fonts/OpenSans-Regular-webfont.woff") format("truetype");
+
+} */
+		/* Police autre Permet d'ajouter des polices autres que les polices de base. Il faut proposer plusieurs formats pour la même police  */;
+
+	}
+cite
+	{
+		font-size:125%;
+		font-style:bold;
+	}
+dt
+	{
+		background-color:red;
+	}
+dd
+	{
+		background-color:orange;
+	}
+
+ol li
+	{
+		color:red;
+	}
+
+#p1
+	{
+		background-color:grey;
+	}
+#p2
+	{
+		background-color:darkgrey;
+	}
+h1 + p /* Toute balise p précédé d'une balise h1 */
+	{
+		font-size:large; /* https://www.w3.org/Style/Examples/007/units.fr.html */
+	}
+
+li[title] /* Tout les balises li avec un attribut title */
+	{
+		color:violet;
+	}
+a[href*="menu"] /* Tout les balise avec un attribut contenant menu, et pas spécifiquement la valeur indiqué */
+	{
+		 color:cyan;
+	}
+/*
+ul + li
+	{
+		color:yellow;
+	}
+Cela ne fonctionne pas car la balise li est cromprise dans le ul et non à l'éxterieur directement aprés */
+
+
+.horizontal
+	{
+		background-image: url("../Images/background_nav.jpg");
+		text-align:center;
+		margin: 5px;
+	}
+
+.horizontal h2{
+	color:white;
+	margin:0;
+	text-align:center;
+}
